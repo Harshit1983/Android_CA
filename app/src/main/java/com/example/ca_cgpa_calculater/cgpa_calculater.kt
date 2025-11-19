@@ -39,7 +39,7 @@ class cgpa_calculater : ComponentActivity() {
             val c2 = s2.text.toString().toFloat()
             val c3 = s3.text.toString().toFloat()
 
-            val cal = c1 + c2 + c3
+            val cal = (c1 + c2 + c3)/3
 
             Toast.makeText(this, cal.toString(), Toast.LENGTH_SHORT).show()
         }
